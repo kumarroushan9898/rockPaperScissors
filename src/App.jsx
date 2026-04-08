@@ -31,7 +31,7 @@ function App() {
       (_UserMove=="Rock" && _computerMove=="Scissors") ||
       (_UserMove=="Scissors" && _computerMove=="Paper")
     ){
-      _result="User Win"
+      _result="You Win"
       _userScore++;
     }else {
       _result="Computer Win"
