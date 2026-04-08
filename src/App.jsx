@@ -60,8 +60,8 @@ function App() {
     <div>
       <h1>Computer:User</h1>
       <h1>{computerMove}:{userMove}</h1>
-      <h1>{computerScore}:{userScore}</h1>
-      <h1>{res}</h1>
+      <h1 style={{color:"red"}}>{computerScore}:{userScore}</h1>
+      <h1 style={{color:"greenyellow"}}>{res}</h1>
       <h1>{round>0?"Rounds":"Round"}:{round}</h1>
       <div style={{display:"flex",justifyContent:"center",gap:"10px"}}>
       <button onClick={()=>handleClick("Rock")}>🪨 Rock</button>
